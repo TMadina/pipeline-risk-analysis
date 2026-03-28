@@ -1,3 +1,10 @@
+This project demonstrates a GIS-based pipeline risk assessment workflow using QGIS and Python.
+## ⚠️ Limitations
+- OSM data may be incomplete or generalized
+- Distance-based model does not account for terrain or flow direction
+- Risk classification is simplified
+
+
 # pipeline-risk-analysis
 Pipeline risk assessment using QGIS and Python
 # Pipeline Risk Assessment Near Water Bodies
@@ -72,3 +79,8 @@ The full PyQGIS script is available in:
 The analysis shows that a significant portion of pipelines is located near water bodies, indicating potential environmental risks.
 This workflow can be adapted for environmental monitoring and infrastructure risk assessment.
 
+
+## 🚀 Future Improvements
+- Include terrain and elevation data
+- Add pipeline pressure / material
+- Use more advanced risk models
